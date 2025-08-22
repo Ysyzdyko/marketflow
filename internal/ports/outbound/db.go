@@ -1,39 +1,16 @@
 package outbound
 
+import (
+	"context"
+	"time"
+
+	"marketflow/internal/app/model"
+)
+
 type DbPort interface {
-	GetTokenRepository
-	PostTokenRepository
-	HighestTokenRepository
-	LowestTokenRepository
-	AverageTokenRepository
-}
-
-type GetTokenRepository interface {
-	ListPriceBySymbol()
-	ListPriceExchangeBySymbol()
-}
-
-type PostTokenRepository interface {
-	AddPrice()
-	UpdatePRice()
-}
-
-type HighestTokenRepository interface {
-	ListHighestPriceBySymbol()
-	ListHighestPriceExcSym()
-	ListHighestPriceBySymbolDuration()
-	ListHighestPriceBySymbExcDuration()
-}
-
-type LowestTokenRepository interface {
-	ListLowestPriceBySymbol()
-	ListLowestPriceExcSym()
-	ListLowestPriceBySymbolDuration()
-	ListLowestPriceBySymbExcDuration()
-}
-
-type AverageTokenRepository interface {
-	ListAvgPriceBySymbol()
-	ListAvgPriceExcSym()
-	ListAvgPriceBySymbExcDuration()
+	Ping_DB(ctx context.Context) error
+	SaveAggregated(ctx context.Context, aggs []model.AggregatedData) error
+	GetAverageByPeriod(ctx context.Context, exchange, symbol string, period time.Duration) (*model.MarketData, error)
+	GetHighestByPeriod(ctx context.Context, exchange, symbol string, period time.Duration) (*model.MarketData, error)
+	GetLowestByPeriod(ctx context.Context, exchange, symbol string, period time.Duration) (*model.MarketData, error)
 }

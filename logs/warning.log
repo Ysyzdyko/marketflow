@@ -1,0 +1,10 @@
+WARN: 2025/08/19 17:27:35 logger.go:63: No data found for latest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:38 logger.go:63: No data found for latest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:44 logger.go:63: No data found for latest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:45 logger.go:63: No data found for highest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:46 logger.go:63: No data found for latest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:46 logger.go:63: No data found for lowest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:47 logger.go:63: No data found for average price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:48 logger.go:63: No data found for lowest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:27:48 logger.go:63: No data found for highest price symbol BTCUSDT exchange exchange:40101
+WARN: 2025/08/19 17:28:04 logger.go:63: No data found for average price symbol BTCUSDT exchange exchange:40101

@@ -1,0 +1,331 @@
+INFO: 2025/08/14 09:56:56 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/14 09:56:56 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/14 09:56:56 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/14 09:56:56 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/14 09:56:56 logger.go:57: Routes registered successfully
+INFO: 2025/08/14 13:34:17 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/14 13:34:17 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/14 13:34:17 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/14 13:34:17 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/14 13:34:17 logger.go:57: Routes registered successfully
+INFO: 2025/08/14 13:34:17 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/14 13:34:24 logger.go:57: Rendering index page
+INFO: 2025/08/14 13:34:25 logger.go:57: Rendering index page
+INFO: 2025/08/14 13:34:35 logger.go:57: Switching to TEST mode
+INFO: 2025/08/14 13:34:35 logger.go:57: Rendering index page
+INFO: 2025/08/14 13:36:46 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/14 13:36:46 logger.go:57: Rendering index page
+INFO: 2025/08/14 13:37:20 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/14 13:37:20 logger.go:57: Rendering index page
+INFO: 2025/08/14 13:37:20 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/14 13:37:20 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/14 13:37:20 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/14 13:37:21 logger.go:57: Switching to TEST mode
+INFO: 2025/08/14 13:37:21 logger.go:57: Rendering index page
+INFO: 2025/08/14 13:37:21 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/14 13:37:21 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/14 13:37:21 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/14 13:37:21 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/14 13:37:21 logger.go:57: Rendering index page
+INFO: 2025/08/14 13:37:22 logger.go:57: Switching to TEST mode
+INFO: 2025/08/14 13:37:22 logger.go:57: Rendering index page
+INFO: 2025/08/14 13:37:22 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/14 13:37:22 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/14 13:37:22 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/14 13:37:22 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/14 13:37:22 logger.go:57: Rendering index page
+INFO: 2025/08/14 13:37:22 logger.go:57: Switching to TEST mode
+INFO: 2025/08/14 13:37:22 logger.go:57: Rendering index page
+INFO: 2025/08/14 13:37:22 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/14 13:37:22 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/14 13:37:22 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/14 13:37:23 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/14 13:37:23 logger.go:57: Rendering index page
+INFO: 2025/08/14 13:37:38 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/14 13:37:38 logger.go:57: Приложение остановлено корректно.
+INFO: 2025/08/14 14:11:26 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/14 14:11:26 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/14 14:11:26 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/14 14:11:26 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/14 14:11:26 logger.go:57: Routes registered successfully
+INFO: 2025/08/14 14:11:26 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/14 14:11:38 logger.go:57: Rendering index page
+INFO: 2025/08/14 14:11:39 logger.go:57: Rendering index page
+INFO: 2025/08/14 14:11:45 logger.go:57: Switching to TEST mode
+INFO: 2025/08/14 14:11:45 logger.go:57: Rendering index page
+INFO: 2025/08/14 14:14:21 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/14 14:14:21 logger.go:57: Приложение остановлено корректно.
+INFO: 2025/08/14 18:01:47 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/14 18:01:47 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/14 18:01:47 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/14 18:01:47 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/14 18:01:47 logger.go:57: Routes registered successfully
+INFO: 2025/08/14 18:01:47 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/14 18:01:54 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:01:55 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:02:02 logger.go:57: Switching to TEST mode
+INFO: 2025/08/14 18:02:02 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:14:34 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/14 18:14:34 logger.go:57: Приложение остановлено корректно.
+INFO: 2025/08/14 18:17:01 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/14 18:17:01 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/14 18:17:02 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/14 18:17:02 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/14 18:17:02 logger.go:57: Routes registered successfully
+INFO: 2025/08/14 18:17:02 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/14 18:17:36 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:17:37 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:17:43 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:17:43 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:17:52 logger.go:57: Switching to TEST mode
+INFO: 2025/08/14 18:17:52 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:17:53 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/14 18:17:53 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:17:56 logger.go:57: Switching to TEST mode
+INFO: 2025/08/14 18:17:56 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:17:56 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/14 18:17:56 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/14 18:17:56 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/14 18:18:01 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/14 18:18:01 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:18:07 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/14 18:18:07 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/14 18:18:07 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/14 18:18:07 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/14 18:18:07 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:18:07 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/14 18:18:07 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:18:07 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/14 18:18:07 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/14 18:18:07 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/14 18:18:08 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/14 18:18:08 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/14 18:18:08 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/14 18:18:08 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/14 18:18:08 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:18:08 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/14 18:18:08 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:18:08 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/14 18:18:08 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/14 18:18:08 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/14 18:18:08 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/14 18:18:08 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:18:08 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/14 18:18:08 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/14 18:18:08 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/14 18:18:08 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/14 18:18:08 logger.go:57: Rendering index page
+INFO: 2025/08/14 18:18:08 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/14 18:18:08 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/14 18:18:08 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/14 18:18:13 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/14 18:18:13 logger.go:57: Приложение остановлено корректно.
+INFO: 2025/08/16 21:10:56 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/16 21:10:56 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/16 21:11:39 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/16 21:11:39 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/16 21:12:08 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/16 21:12:08 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/16 21:15:35 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/16 21:15:35 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/16 21:15:35 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/16 21:15:35 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/16 21:15:35 logger.go:57: Routes registered successfully
+INFO: 2025/08/16 21:15:35 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/16 21:15:49 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/16 21:15:49 logger.go:57: Приложение остановлено корректно.
+INFO: 2025/08/16 21:17:06 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/16 21:17:06 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/16 21:17:06 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/16 21:17:06 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/16 21:17:06 logger.go:57: Routes registered successfully
+INFO: 2025/08/16 21:17:06 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/16 21:17:09 logger.go:57: Rendering index page
+INFO: 2025/08/16 21:17:09 logger.go:57: Rendering index page
+INFO: 2025/08/16 21:17:16 logger.go:57: Switching to TEST mode
+INFO: 2025/08/16 21:17:16 logger.go:57: Rendering index page
+INFO: 2025/08/16 21:17:32 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/16 21:17:32 logger.go:57: Приложение остановлено корректно.
+INFO: 2025/08/16 21:19:55 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/16 21:19:55 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/16 21:19:55 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/16 21:19:55 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/16 21:19:55 logger.go:57: Routes registered successfully
+INFO: 2025/08/16 21:19:55 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/16 21:19:58 logger.go:57: Rendering index page
+INFO: 2025/08/16 21:19:59 logger.go:57: Rendering index page
+INFO: 2025/08/16 21:20:04 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/16 21:20:04 logger.go:57: Rendering index page
+INFO: 2025/08/16 21:20:21 logger.go:57: Switching to TEST mode
+INFO: 2025/08/16 21:20:21 logger.go:57: Rendering index page
+INFO: 2025/08/16 21:21:25 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/16 21:21:25 logger.go:57: Приложение остановлено корректно.
+INFO: 2025/08/16 21:21:42 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/16 21:21:42 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/16 21:21:42 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/16 21:21:42 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/16 21:21:42 logger.go:57: Routes registered successfully
+INFO: 2025/08/16 21:21:42 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/16 21:21:45 logger.go:57: Rendering index page
+INFO: 2025/08/16 21:21:45 logger.go:57: Rendering index page
+INFO: 2025/08/16 21:21:51 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/16 21:21:51 logger.go:57: Rendering index page
+INFO: 2025/08/16 21:22:36 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/16 21:22:36 logger.go:57: Приложение остановлено корректно.
+INFO: 2025/08/16 17:33:48 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/16 17:33:48 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/16 17:33:48 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/16 17:33:48 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/16 17:33:48 logger.go:57: Routes registered successfully
+INFO: 2025/08/16 17:33:48 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/16 17:35:20 logger.go:57: Rendering index page
+INFO: 2025/08/16 17:35:20 logger.go:57: Rendering index page
+INFO: 2025/08/16 17:35:31 logger.go:57: Switching to TEST mode
+INFO: 2025/08/16 17:35:31 logger.go:57: Rendering index page
+INFO: 2025/08/16 17:35:32 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/16 17:35:32 logger.go:57: Rendering index page
+INFO: 2025/08/16 17:36:01 logger.go:57: Switching to TEST mode
+INFO: 2025/08/16 17:36:01 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/16 17:36:01 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/16 17:36:01 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/16 17:36:01 logger.go:57: Rendering index page
+INFO: 2025/08/16 17:36:17 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/16 17:36:17 logger.go:57: Rendering index page
+INFO: 2025/08/16 17:36:33 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/16 17:36:33 logger.go:57: Rendering index page
+INFO: 2025/08/16 17:36:33 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/16 17:36:33 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/16 17:36:33 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/16 17:36:37 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/16 17:36:37 logger.go:57: Rendering index page
+INFO: 2025/08/16 17:36:37 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/16 17:36:37 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/16 17:36:37 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/16 17:36:39 logger.go:57: Switching to TEST mode
+INFO: 2025/08/16 17:36:39 logger.go:57: Rendering index page
+INFO: 2025/08/16 17:36:39 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/16 17:36:39 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/16 17:36:39 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/16 17:36:47 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/16 17:36:47 logger.go:57: Rendering index page
+INFO: 2025/08/16 17:36:55 logger.go:57: Switching to TEST mode
+INFO: 2025/08/16 17:36:55 logger.go:57: Rendering index page
+INFO: 2025/08/16 17:36:55 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/16 17:36:55 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/16 17:36:55 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/16 17:40:15 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/16 17:40:15 logger.go:57: Приложение остановлено корректно.
+INFO: 2025/08/16 17:42:41 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/16 17:42:41 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/16 17:42:41 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/16 17:42:41 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/16 17:42:41 logger.go:57: Routes registered successfully
+INFO: 2025/08/16 17:42:41 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/16 17:43:37 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/16 17:43:37 logger.go:57: Приложение остановлено корректно.
+INFO: 2025/08/19 11:28:40 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/19 11:28:40 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/19 11:28:40 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/19 11:28:40 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/19 11:28:40 logger.go:57: Routes registered successfully
+INFO: 2025/08/19 11:28:40 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/19 11:28:51 logger.go:57: Rendering index page
+INFO: 2025/08/19 11:28:52 logger.go:57: Rendering index page
+INFO: 2025/08/19 11:29:09 logger.go:57: Switching to TEST mode
+INFO: 2025/08/19 11:29:09 logger.go:57: Rendering index page
+INFO: 2025/08/19 11:29:10 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/19 11:29:10 logger.go:57: Rendering index page
+INFO: 2025/08/19 11:29:10 logger.go:57: Switching to TEST mode
+INFO: 2025/08/19 11:29:10 logger.go:57: Rendering index page
+INFO: 2025/08/19 11:29:11 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/19 11:29:11 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/19 11:29:11 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/19 11:29:10 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/19 11:29:10 logger.go:57: Rendering index page
+INFO: 2025/08/19 11:29:26 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 11:29:27 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 11:29:28 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 11:42:19 logger.go:57: Rendering index page
+INFO: 2025/08/19 11:42:19 logger.go:57: Rendering index page
+INFO: 2025/08/19 11:42:38 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/19 11:42:38 logger.go:57: Приложение остановлено корректно.
+INFO: 2025/08/19 17:26:00 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/19 17:26:00 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/19 17:26:00 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/19 17:26:00 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/19 17:26:00 logger.go:57: Routes registered successfully
+INFO: 2025/08/19 17:26:00 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/19 17:26:07 logger.go:57: Rendering index page
+INFO: 2025/08/19 17:26:20 logger.go:57: Rendering index page
+INFO: 2025/08/19 17:26:20 logger.go:57: Rendering index page
+INFO: 2025/08/19 17:26:31 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/19 17:26:31 logger.go:57: Rendering index page
+INFO: 2025/08/19 17:26:37 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 17:26:39 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 17:27:12 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 5s exchange 
+INFO: 2025/08/19 17:31:47 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/19 17:31:47 logger.go:57: Приложение остановлено корректно.
+INFO: 2025/08/19 18:35:13 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/19 18:35:13 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/19 18:35:13 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/19 18:35:13 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/19 18:35:13 logger.go:57: Routes registered successfully
+INFO: 2025/08/19 18:35:13 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/19 18:36:04 logger.go:57: Rendering index page
+INFO: 2025/08/19 18:36:04 logger.go:57: Rendering index page
+INFO: 2025/08/19 18:36:12 logger.go:57: Switching to TEST mode
+INFO: 2025/08/19 18:36:12 logger.go:57: Rendering index page
+INFO: 2025/08/19 18:36:20 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:21 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:21 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:21 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:21 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:22 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:22 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:22 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:22 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:23 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:23 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:23 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:23 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:24 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:24 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:24 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:24 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:24 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:25 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:25 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:25 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:25 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:26 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:26 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:26 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:28 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:28 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:28 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:28 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:28 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:28 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:36:29 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:38:16 logger.go:57: Fetching average price for symbol symbol BTCUSDT period 0s exchange 
+INFO: 2025/08/19 18:38:33 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/19 18:38:33 logger.go:57: Приложение остановлено корректно.
+INFO: 2025/08/20 16:02:07 logger.go:57: Starting MarketFlow application...
+INFO: 2025/08/20 16:02:07 logger.go:57: Подключение к PostgreSQL успешно
+INFO: 2025/08/20 16:02:07 logger.go:57: Подключение к Redis успешно
+INFO: 2025/08/20 16:02:07 logger.go:57: Registering HTTP routes...
+INFO: 2025/08/20 16:02:07 logger.go:57: Routes registered successfully
+INFO: 2025/08/20 16:02:07 logger.go:57: MarketFlow application started successfully
+INFO: 2025/08/20 16:10:49 logger.go:57: Rendering index page
+INFO: 2025/08/20 16:10:49 logger.go:57: Rendering index page
+INFO: 2025/08/20 16:10:54 logger.go:57: Switching to LIVE mode
+INFO: 2025/08/20 16:10:54 logger.go:57: Rendering index page
+INFO: 2025/08/20 16:11:02 logger.go:57: Switching to TEST mode
+INFO: 2025/08/20 16:11:02 logger.go:57: Rendering index page
+INFO: 2025/08/20 16:11:02 logger.go:57: Остановлен парсинг данных от exchange3:40103
+INFO: 2025/08/20 16:11:02 logger.go:57: Остановлен парсинг данных от exchange1:40101
+INFO: 2025/08/20 16:11:02 logger.go:57: Остановлен парсинг данных от exchange2:40102
+INFO: 2025/08/20 16:11:02 logger.go:57: Switching to TEST mode
+INFO: 2025/08/20 16:11:02 logger.go:57: Rendering index page
+INFO: 2025/08/20 16:12:33 logger.go:57: Получен сигнал завершения, останавливаем приложение...
+INFO: 2025/08/20 16:12:33 logger.go:57: Приложение остановлено корректно.

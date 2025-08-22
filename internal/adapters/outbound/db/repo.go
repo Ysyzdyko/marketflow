@@ -1,27 +1,39 @@
 package db
 
-import "database/sql"
+import (
+	"database/sql"
+	"fmt"
+	"log"
 
-type Repo struct {
-	Conn *sql.DB
+	"marketflow/internal/config"
+
+	_ "github.com/jackc/pgx/v5/stdlib"
+)
+
+type Postgres struct {
+	db *sql.DB
+	Repo
 }
 
-func NewRepo(db *sql.DB) *Repo {
-	return &Repo{Conn: db}
+func NewPostgres(cfg config.PostgresConfig) (*Postgres, error) {
+	psqlInfo := fmt.Sprintf(
+		"host=%s port=%d user=%s password=%s dbname=%s sslmode=%s",
+		cfg.Host, cfg.Port, cfg.User, cfg.Password, cfg.DBName, cfg.SSLMode,
+	)
+
+	db, err := sql.Open("pgx", psqlInfo)
+	if err != nil {
+		return nil, fmt.Errorf("failed to connect to PostgreSQL: %w", err)
+	}
+
+	return &Postgres{
+		db:   db,
+		Repo: Repo{Conn: db},
+	}, nil
 }
 
-func (r *Repo) ListPriceBySymbol()                 {}
-func (r *Repo) ListPriceExchangeBySymbol()         {}
-func (r *Repo) AddPrice()                          {}
-func (r *Repo) UpdatePRice()                       {}
-func (r *Repo) ListHighestPriceBySymbol()          {}
-func (r *Repo) ListHighestPriceExcSym()            {}
-func (r *Repo) ListHighestPriceBySymbolDuration()  {}
-func (r *Repo) ListHighestPriceBySymbExcDuration() {}
-func (r *Repo) ListLowestPriceBySymbol()           {}
-func (r *Repo) ListLowestPriceExcSym()             {}
-func (r *Repo) ListLowestPriceBySymbolDuration()   {}
-func (r *Repo) ListLowestPriceBySymbExcDuration()  {}
-func (r *Repo) ListAvgPriceBySymbol()              {}
-func (r *Repo) ListAvgPriceExcSym()                {}
-func (r *Repo) ListAvgPriceBySymbExcDuration()     {}
+func (p *Postgres) Close() {
+	if err := p.db.Close(); err != nil {
+		log.Printf("Error closing the database connection: %v", err)
+	}
+}

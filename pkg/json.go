@@ -2,29 +2,29 @@ package pkg
 
 import (
 	"encoding/json"
-	"io"
+	"net/http"
 )
 
-func UnmarshalJson[T any](data []byte) (T, error) {
-	var obj T
-	err := json.Unmarshal(data, &obj)
-	if err != nil {
-		return obj, err
-	}
-	return obj, nil
+type ErrorResponse struct {
+	Status  int    `json:"status"`
+	Message string `json:"message"`
 }
 
-func MarshalJson[T any](obj T) ([]byte, error) {
-	data, err := json.Marshal(obj)
-	if err != nil {
-		return nil, err
+func WriteJSON(w http.ResponseWriter, status int, data any) {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(status)
+	if err := json.NewEncoder(w).Encode(data); err != nil {
+		http.Error(w, "failed to encode response", http.StatusInternalServerError)
 	}
-	return data, nil
 }
 
-func Encode(writer io.Writer, v any) error {
-	if writer == nil {
-		return nil
+func WriteErrorJSON(w http.ResponseWriter, status int, message string) {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(status)
+	if err := json.NewEncoder(w).Encode(ErrorResponse{
+		Status:  status,
+		Message: message,
+	}); err != nil {
+		http.Error(w, "failed to encode error response", http.StatusInternalServerError)
 	}
-	return json.NewEncoder(writer).Encode(v)
 }

@@ -1,24 +1,20 @@
-# Dockerfile
-
-FROM golang:1.21-alpine
+FROM golang:1.23
 
 WORKDIR /app
 
 # Установим git (если go mod требует)
-RUN apk add --no-cache git
+RUN apt-get update && apt-get install -y git
 
-# Копируем код и зависимости
+# Копируем go.mod и go.sum, скачиваем зависимости
 COPY go.mod ./
 COPY go.sum ./
 RUN go mod download
 
+# Копируем остальной код
 COPY . .
-
-# Скачиваем wait-for-it
-ADD https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh /wait-for-it.sh
-RUN chmod +x /wait-for-it.sh
 
 # Собираем приложение
 RUN go build -o marketflow ./cmd/app
 
-CMD ["/wait-for-it.sh", "postgres:5432", "--", "/app/marketflow"]
+# Запускаем приложение напрямую (без wait-for-it.sh)
+CMD ["/app/marketflow"]

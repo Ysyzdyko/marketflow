@@ -1,8 +1,8 @@
-CREATE TABLE token (
-    pair_name      TEXT,
+CREATE TABLE market_data (
+    symbol         TEXT,
     exchange       TEXT,
-    time_stamp     TIMESTAMP,
+    timestamp      TIMESTAMP,
     average_price  FLOAT,
     min_price      FLOAT,
     max_price      FLOAT
-);
+);  

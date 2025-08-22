@@ -112,9 +112,5 @@ docker-compose up --build
 
 ---
 
-## Контакты автора
 
-- Email: [justerkanat@gmail.com](mailto:justerkanat@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/yerkanbey/)
 
----
